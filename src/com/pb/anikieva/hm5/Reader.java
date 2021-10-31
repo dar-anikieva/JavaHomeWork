@@ -15,6 +15,7 @@ public class Reader {
         this.phone = phone;
     }
 
+
     public Reader() {
     }
 
