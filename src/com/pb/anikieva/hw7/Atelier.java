@@ -9,10 +9,10 @@ public class Atelier {
         Tie tie = new Tie(Size.L, "коричневый", 150, "галстук");
 
         Clothes[] clothes = new Clothes[]{tshirt, pants, skirt, tie};
-        dressWooMan(clothes);
+        dressWoMan(clothes);
         dressMan(clothes);
     }
-    public static void dressWooMan(Clothes[] clothes) {
+    public static void dressWoMan(Clothes[] clothes) {
         System.out.println("Женская одежда: ");
         for (Clothes c : clothes) {
             if (c instanceof WomanClothes) {
