@@ -5,7 +5,6 @@ public class NumBox<T extends Number> {
     private final T[] number;
     private int index;
 
-    @SuppressWarnings("unchecked")
     public NumBox(int size) {
         number = (T[]) new Number[size];
     }
