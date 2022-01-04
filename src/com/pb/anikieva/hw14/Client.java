@@ -98,7 +98,7 @@ class Client1 {
 
 public class Client {
 
-    public static String ipAddr = "192.0.0.1";
+    public static String ipAddr = "127.0.0.1";
     public static int port = 1234;
 
     public static void main(String[] args) {
